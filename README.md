@@ -18,7 +18,7 @@ Dado un álbum con \( n \) figuritas diferentes, que se distribuyen aleatoriamen
 
 Se modela la compra de figuritas individuales con el siguiente proceso:
 
-1. Se elige una figurita aleatoria \( X_i \in \{1, \ldots, n\} \) con probabilidad uniforme.
+1. Se elige una figurita aleatoria $\( X_i \in \{1, \ldots, n\} \)$ con probabilidad uniforme.
 2. Se repite la compra hasta haber obtenido todas las figuritas del álbum.
 
 La cantidad total de figuritas compradas para completar el álbum es la variable aleatoria \( T \).
@@ -29,7 +29,7 @@ La cantidad total de figuritas compradas para completar el álbum es la variable
 
 Cuando las figuritas se compran en paquetes de tamaño \( k \):
 
-- Cada paquete es un vector aleatorio de \( k \) figuritas elegidas con reemplazo, \( P_j = (X_{j1}, \ldots, X_{jk}) \).
+- Cada paquete es un vector aleatorio de \( k \) figuritas elegidas con reemplazo, $\( P_j = (X_{j1}, \ldots, X_{jk}) \)$.
 - Se acumulan figuritas paquete a paquete hasta completar el álbum.
 
 La cantidad de paquetes comprados es la variable aleatoria \( M \).
@@ -38,9 +38,9 @@ La cantidad de paquetes comprados es la variable aleatoria \( M \).
 
 ## Objetivos de la simulación
 
-- Estimar \( \mathbb{E}[T] \): la cantidad promedio de figuritas individuales necesarias para completar el álbum.
-- Calcular \( \mathbb{P}(T \leq t) \): la probabilidad de completar el álbum con a lo sumo \( t \) figuritas.
-- Determinar el valor \( t_{90} \) tal que \( \mathbb{P}(T \leq t_{90}) = 0.9 \) (es decir, completar el álbum con un 90% de probabilidad).
+- Estimar $\( \mathbb{E}[T] \)$: la cantidad promedio de figuritas individuales necesarias para completar el álbum.
+- Calcular $\( \mathbb{P}(T \leq t) \)$: la probabilidad de completar el álbum con a lo sumo \( t \) figuritas.
+- Determinar el valor $\( t_{90} \)$ tal que $\( \mathbb{P}(T \leq t_{90}) = 0.9 \)$ (es decir, completar el álbum con un 90% de probabilidad).
 - Análogamente, estimar estos valores para la compra por paquetes.
   
 ---
