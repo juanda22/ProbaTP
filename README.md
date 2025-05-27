@@ -42,7 +42,7 @@ La cantidad de paquetes comprados es la variable aleatoria \( M \).
 - Calcular \( \mathbb{P}(T \leq t) \): la probabilidad de completar el álbum con a lo sumo \( t \) figuritas.
 - Determinar el valor \( t_{90} \) tal que \( \mathbb{P}(T \leq t_{90}) = 0.9 \) (es decir, completar el álbum con un 90% de probabilidad).
 - Análogamente, estimar estos valores para la compra por paquetes.
-
+  
 ---
 
 ## Herramientas implementadas en R
