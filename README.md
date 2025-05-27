@@ -55,17 +55,10 @@ La cantidad de paquetes comprados es la variable aleatoria \( M \).
 
 Así, la simulación permite responder preguntas del tipo:
 
-¿Cuántas figuritas hay que comprar, en promedio, para completar el álbum?
+- ¿Cuántas figuritas hay que comprar, en promedio, para completar el álbum?  
+- ¿Cuál es la probabilidad de completarlo comprando a lo sumo \(t\) figuritas?  
+- ¿Cuántas figuritas hay que comprar para tener un 90% de certeza de completarlo?  
 
-¿Cuál es la probabilidad de completarlo comprando a lo sumo
-
-\[
-P(T \leq t)
-\]
-
-figuritas?
-
-¿Cuántas figuritas hay que comprar para tener un 90% de certeza de completarlo?
 
 
 ---
